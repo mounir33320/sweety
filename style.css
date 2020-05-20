@@ -1,0 +1,66 @@
+@font-face{
+	font-family: "Maiandra";
+	src: url("fonts/Maiandra_GD_Regular.ttf") format("truetype");
+}
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: "Maiandra";
+}
+
+#affiche{
+	width: 90%;
+	margin: 20px auto;
+	text-align: center;
+	border:1px solid black;
+}
+
+p{
+	margin: 30px 0 0 0;
+	font-size: 1.5em;
+}
+
+#header-affiche{
+	display: flex;
+	justify-content: space-around;
+}
+
+#logo img{
+	max-width: 80%;
+}
+
+.bleu{
+	color: #00b0f0;
+}
+
+#promo{
+	display: inline-block;
+	background-color: #ffff00;
+}
+
+.codePromoExist{
+	font-size: 1.5em;
+}
+
+.codePromo{
+	display: inline-block;
+	padding: 10px;
+}
+
+#condition{
+	font-size: .8em ;
+}
+
+#list{
+	margin: 20px 0;
+	padding: 0 10px;
+	list-style: none;
+	font-size: 1.6em;
+	font-family: "Arial";
+}
+
+#list li{
+	margin-bottom: 30px;
+	
+}
